@@ -1,14 +1,7 @@
-# uncompyle6 version 3.7.4
-
-# Python bytecode 2.7
-
-# Decompiled from: Python 2.7.18 (default, Mar 20 2021, 14:59:33) 
-
-# [GCC 4.2.1 Compatible Android (6454773 based on r365631c2) Clang 9.0.8 (https:/
-
-# Embedded file name: koNtol
-
-
+#coding=utf-8
+#!/usr/bin/python2
+#Script Written By SDJ
+#Hatter's Dont Tak Panga
 try:
     import os,sys,time,datetime,re,random,hashlib,threading,json,getpass,urllib,cookielib,requests
     from multiprocessing.pool import ThreadPool
