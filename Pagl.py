@@ -175,7 +175,7 @@ def lisensi():
     print logo1
     print
 
-     os.system('echo -e "\n\n(1) CRACK PAK  \n\n(2) CRACK BD  \n\n(0) Close Program" | lolcat')
+os.system('echo -e "\n\n(1) CRACK PAK  \n\n(2) CRACK BD  \n\n(0) Close Program" | lolcat')
 
     pilih_SDJ()
 
