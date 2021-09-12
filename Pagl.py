@@ -177,23 +177,23 @@ def lisensi():
 
 os.system('echo -e "\n\n(1) CRACK PAK  \n\n(2) CRACK BD  \n\n(0) Close Program" | lolcat')
 
-    pilih_Sdj()
+    pilih_Somi()
 
-def pilih_Sdj():
+def pilih_Somi():
 
-    SDJ = raw_input('\n\x1b[1;95m\xe2\x80\xa2\xe2\x9e\xa2 \x1b[1;96m')
+    Somi = raw_input('\n\x1b[1;95m\xe2\x80\xa2\xe2\x9e\xa2 \x1b[1;96m')
 
-    if Sdj == '':
+    if Somi == '':
 
         print '\x1b[1;97mFill In Correctly'
 
         pilih_login()
 
-    elif Sdj == '1':
+    elif Somi == '1':
 
         p()
 
-    elif Sdj == '2':
+    elif Somi == '2':
 
         b()
 
@@ -213,15 +213,15 @@ def p():
 
 def act():
 
-    Sdj = raw_input('\n\n \x1b[1;97m  ')
+    somi = raw_input('\n\n \x1b[1;97m  ')
 
-    if Sdj == '':
+    if somi == '':
 
         print '[!] Fill in correctly'
 
         act()
 
-    elif Sdj == 'y':
+    elif somi == 'y':
 
         tik()
 
@@ -263,9 +263,9 @@ def act():
 
             raw_input('\n[ Back ]')
 
-            Sdj()
+            somi()
 
-    elif Sdj == 'n':
+    elif somi == 'n':
 
         login()
 
@@ -332,7 +332,7 @@ def act():
                 cps.close()
 
                 cpb.append(c + user + pass1)
-              
+
             else:
 
                 pass2 = k + c + user
@@ -361,8 +361,7 @@ def act():
 
                     cps.write(k + c + user + pass3 + '\n')
 
-                    cps.close() 
-               
+                    cps.close()
 
                     cpb.append(c + user + pass3)
 
@@ -430,15 +429,15 @@ def b():
 
 def action():
 
-    Sdj = raw_input('\n\n \x1b[1;97m  ')
+    somi = raw_input('\n\n \x1b[1;97m  ')
 
-    if Sdj == '':
+    if somi == '':
 
         print '[!] Fill in correctly'
 
         action()
 
-    elif Sdj == 'y':
+    elif somi == 'y':
 
         tik()
 
@@ -466,9 +465,9 @@ def action():
 
             raw_input('\n[ Back ]')
 
-            Sdj()
+            somi()
 
-    elif Sdj == 'n':
+    elif somi == 'n':
 
         login()
 
