@@ -165,8 +165,6 @@ vulnot = '\x1b[31mNot Vuln'
 vuln = '\x1b[32mVuln'
 
 os.system('clear')
-
-logo1 = ' '
 #MyLogo
 logo = """\033[1;97m
 \033[1;97m   
@@ -194,8 +192,7 @@ def login():
 
     os.system('clear')
 
-    print logo1
-
+    print logo
     print
 
      os.system('echo -e "\n\n(1) CRACK PAK  \n\n(2) CRACK BD  \n\n(0) Close Program" | lolcat')
