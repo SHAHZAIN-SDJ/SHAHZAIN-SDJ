@@ -177,23 +177,23 @@ def lisensi():
 
 os.system('echo -e "\n\n(1) CRACK PAK  \n\n(2) CRACK BD  \n\n(0) Close Program" | lolcat')
 
-    pilih_SDJ()
+    pilih_Sdj()
 
-def pilih_SDJ():
+def pilih_Sdj():
 
     SDJ = raw_input('\n\x1b[1;95m\xe2\x80\xa2\xe2\x9e\xa2 \x1b[1;96m')
 
-    if SDJ == '':
+    if Sdj == '':
 
         print '\x1b[1;97mFill In Correctly'
 
         pilih_login()
 
-    elif SDJ == '1':
+    elif Sdj == '1':
 
         p()
 
-    elif SDJ == '2':
+    elif Sdj == '2':
 
         b()
 
@@ -213,15 +213,15 @@ def p():
 
 def act():
 
-    SDJ = raw_input('\n\n \x1b[1;97m  ')
+    Sdj = raw_input('\n\n \x1b[1;97m  ')
 
-    if SDJ == '':
+    if Sdj == '':
 
         print '[!] Fill in correctly'
 
         act()
 
-    elif SDJ == 'y':
+    elif Sdj == 'y':
 
         tik()
 
@@ -263,9 +263,9 @@ def act():
 
             raw_input('\n[ Back ]')
 
-            SDJ()
+            Sdj()
 
-    elif SDJ == 'n':
+    elif Sdj == 'n':
 
         login()
 
@@ -430,15 +430,15 @@ def b():
 
 def action():
 
-    SDJ = raw_input('\n\n \x1b[1;97m  ')
+    Sdj = raw_input('\n\n \x1b[1;97m  ')
 
-    if SDJ == '':
+    if Sdj == '':
 
         print '[!] Fill in correctly'
 
         action()
 
-    elif SDJ == 'y':
+    elif Sdj == 'y':
 
         tik()
 
@@ -466,9 +466,9 @@ def action():
 
             raw_input('\n[ Back ]')
 
-            somi()
+            Sdj()
 
-    elif SDJ == 'n':
+    elif Sdj == 'n':
 
         login()
 
