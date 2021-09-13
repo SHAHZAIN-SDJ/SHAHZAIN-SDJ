@@ -211,12 +211,7 @@ class crack:
 		os.system('clear')
 		ha=0
 		print("""
-  _________   _____ __________.___
- /   _____/  /  _  \\______    \   | 
- \_____  \  /  /_\  \|     ___/   |     
- /        \/    |    \    |   |   |   
-/_______  /\____|__  /____|   |___|
-        \/         \/
+ 
         Latif. H & Yanwar. E
         """)
 		self.jalan(f"[!] Welcome {self.nama} [ NOT PREMIUM ]\n")
