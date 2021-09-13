@@ -210,10 +210,7 @@ class crack:
 		wok=[]
 		os.system('clear')
 		ha=0
-		print("""
- 
-        Latif. H & Yanwar. E
-        """)
+		print("""""")
 		self.jalan(f"[!] Welcome {self.nama} [ NOT PREMIUM ]\n")
 		print('[1]. Crack Daftar Teman/Publik\n[2]. Crack Daftar Followers\n[C]. Cek Hasil Crack\n[S]. Setting Useragent\n[L]. Logout Script\n[R]. Laporkan Bug Or Error')
 		print(f'+'+'-'*45+'+\n')
