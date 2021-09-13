@@ -209,6 +209,7 @@ class crack:
 	def menu(self):
 		wok=[]
 		os.system('clear')
+        os.system("figlet SDJ  |lolcat") 
 		ha=0
 		print("""""")
 		self.jalan(f"[!] Welcome {self.nama} [ NOT PREMIUM ]\n")
