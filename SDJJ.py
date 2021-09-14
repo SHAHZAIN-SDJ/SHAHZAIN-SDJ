@@ -228,7 +228,6 @@ class crack:
                                         """)
 		self.jalan(f"[!] Welcome {self.nama} [ FREE MODE ]\n")
 		print('[1]. Crack From Friends/Publik (MULTI)\n[2]. Crack From Followers (MULTI)\n[C]. Check crack results\n[S]. Setting Useragent\n[L]. Logout Script\n[R]. Report Bugs or Errors')
-        print(f'+'+'-'*45+'+\n')
 		pil=input('[+] Select: ')
 		if(pil in ('01','1')):
 			print('\n\t CRACK FRIENDS LIST')
