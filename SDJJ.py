@@ -12,13 +12,11 @@ mb="https://mbasic.facebook.com"
 
 def login():
 	os.system("clear")
-    print(f'+'+'-'*45+'+\n')
 	print("""
 	 LOGIN WITH ONLY TOKEN
 	""")
 	print("[1]. INPUT TOKEN\n[2]. HOW TO CREATE TOKEN\n")
 	pil=input("[!] : Select Login Method")
-    print(f'+'+'-'*45+'+\n')
 	if(pil in ("01","1")):
 		to=input("[+] Enter your Access Token: ")
 		r=json.loads(req.get(f"https://graph.facebook.com/me?access_token={to}").text)
