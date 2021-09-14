@@ -12,12 +12,10 @@ mb="https://mbasic.facebook.com"
 
 def login():
 	os.system("clear")
-    print(f'+'+'_'*45+'+\n')
 	print("""
 	 LOGIN WITH ONLY TOKEN
 	""")
 	print("[1]. INPUT TOKEN\n[2]. HOW TO CREATE TOKEN\n")
-    print(f'+'+'_'*45+'+\n')
 	pil=input("[!] : Select Login Method")
 	if(pil in ("01","1")):
 		to=input("[+] Enter your Access Token: ")
@@ -53,14 +51,11 @@ def logika():
 		token=open("save","r").read()
 		r=json.loads(req.get(f"https://graph.facebook.com/me?access_token={token}").text)
 		nama=r['name']
-        print(f'+'+'_'*45+'+\n')
 		print(f"[☆] YOU ALRDY LOGIN [☆]\nWelcome Back {nama}")
-        print(f'+'+'_'*45+'+\n')
 		time.sleep(1.5)
 		crack(token,nama).menu()
 	except FileNotFoundError:
 		print("[!]You are not logged in. Please login first  [!]")
-        print(f'+'+'_'*45+'+\n')
 		time.sleep(2)
 		login()
 	except KeyError:
@@ -150,7 +145,6 @@ class crack:
 				print("\nchose Methode Crack\n[1]. Crack Methode B-api (FAST)\n[2]. Crack Methode Mbasic (NORMAL) [ RECOMENDED ]\n")
 				tip=input("[?] Select: ")
 				self.jalan(f'\n[√] Crack Running Hit: {time.strftime("%X")}')
-				print(f'+'+'-'*45+'+\n')
 				if(tip in ("02","2")):
 					for email in id:
 						uid,name=email.split("|")
