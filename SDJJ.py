@@ -12,7 +12,7 @@ mb="https://mbasic.facebook.com"
 
 def login():
 	os.system("clear")
-    os.system('echo -e "-----------------------------------------------"| lolcat')
+os.system('echo -e "-----------------------------------------------"| lolcat')
 	print("""
 	 LOGIN WITH ONLY TOKEN
 	""")
@@ -20,7 +20,7 @@ def login():
 	pil=input("[!] : Select Login Method")
 	if(pil in ("01","1")):
 		to=input("[+] Enter your Access Token: ")
-        os.system('echo -e "-----------------------------------------------"| lolcat')
+    os.system('echo -e "-----------------------------------------------"| lolcat')
 		r=json.loads(req.get(f"https://graph.facebook.com/me?access_token={to}").text)
 		try:
 			nama=r['name']
@@ -229,11 +229,11 @@ class crack:
 ╰┻✪✪╧─────────────────────────────✪✪➛➢
                                                                                                    
                                         """)
-        os.system('echo -e "-----------------------------------------------"| lolcat')
+    os.system('echo -e "-----------------------------------------------"| lolcat')
 		self.jalan(f"[!] Welcome {self.nama} [ FREE MODE ]\n")
         os.system('echo -e "-----------------------------------------------"| lolcat')
 		print('[1]. Crack From Friends/Publik (MULTI)\n[2]. Crack From Followers (MULTI)\n[C]. Check crack results\n[S]. Setting Useragent\n[L]. Logout Script\n[R]. Report Bugs or Errors')
-		os.system('echo -e "-----------------------------------------------"| lolcat')
+	os.system('echo -e "-----------------------------------------------"| lolcat')
 		pil=input('[+] Select: ')
 		if(pil in ('01','1')):
 			print('\n\t CRACK FRIENDS LIST')
@@ -245,9 +245,9 @@ class crack:
 					self.menu()
 				else:pass
 			except:jumlah=1
-            os.system('echo -e "-----------------------------------------------"| lolcat')
+os.system('echo -e "-----------------------------------------------"| lolcat')
 			print("\nType 'me' Crack Your Account Friends List")
-            os.system('echo -e "-----------------------------------------------"| lolcat')
+os.system('echo -e "-----------------------------------------------"| lolcat')
 			for j in range(jumlah):
 				ha+=1
 				target=input(f"[+] Enter Target ID To {ha}: ").replace("'me'","me")
@@ -279,9 +279,9 @@ class crack:
 					self.menu()
 				else:pass
 			except:jumlah=1
-            os.system('echo -e "-----------------------------------------------"| lolcat')
+os.system('echo -e "-----------------------------------------------"| lolcat')
 			print("\nType 'me' Crack Your Account Friends List")
-            os.system('echo -e "-----------------------------------------------"| lolcat')
+os.system('echo -e "-----------------------------------------------"| lolcat')
 			for j in range(jumlah):
 				target=input("[+] Enter Target ID To: ").replace("'me'","me")
 				try:
@@ -303,9 +303,9 @@ class crack:
 					id.append(idnya+'|'+nama)
 			self.kirim()
 		elif(pil in ("c","C")):
-            os.system('echo -e "-----------------------------------------------"| lolcat')
+os.system('echo -e "-----------------------------------------------"| lolcat')
 			print("\n\n Check ok \n[1]. Check Ok\n[2]. Check Cp\n[3]. Exit Menu\n")
-            os.system('echo -e "-----------------------------------------------"| lolcat')
+os.system('echo -e "-----------------------------------------------"| lolcat')
 			hh=input("[!] Select: ")
 			if(hh in ("01","1")):
 				try:
