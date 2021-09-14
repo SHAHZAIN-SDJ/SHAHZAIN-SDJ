@@ -19,7 +19,6 @@ def login():
 	pil=input("[!] : Select Login Method")
 	if(pil in ("01","1")):
 		to=input("[+] Enter your Access Token: ")
-    os.system('echo -e "-----------------------------------------------"| lolcat')
 		r=json.loads(req.get(f"https://graph.facebook.com/me?access_token={to}").text)
 		try:
 			nama=r['name']
@@ -230,7 +229,7 @@ class crack:
                                         """)
     os.system('echo -e "-----------------------------------------------"| lolcat')
 		self.jalan(f"[!] Welcome {self.nama} [ FREE MODE ]\n")
-        os.system('echo -e "-----------------------------------------------"| lolcat')
+    os.system('echo -e "-----------------------------------------------"| lolcat')
 		print('[1]. Crack From Friends/Publik (MULTI)\n[2]. Crack From Followers (MULTI)\n[C]. Check crack results\n[S]. Setting Useragent\n[L]. Logout Script\n[R]. Report Bugs or Errors')
 	os.system('echo -e "-----------------------------------------------"| lolcat')
 		pil=input('[+] Select: ')
