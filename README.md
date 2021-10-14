@@ -1,4 +1,4 @@
-<h3><b><i>🏆 Github Statistics :</i></b></h3>
+<h3><b><i>🐓 Github Statistics :</i></b></h3>
 <a href="https://github.com/SHAHZAIN-SDJ"><img title="trophy" src="https://github-profile-trophy.vercel.app/?username=SHAHZAIN-SDJ&theme=monokai"></a>
 </p>  
 <p align="center"> 
@@ -10,7 +10,7 @@
 
 
 
-#![github stats](https://github-readme-stats.vercel.app/api?username=SHAHZAIN-SDJ&show_icons=true&include_all_commits=true&theme=chartreuse-dark&cache_seconds=3200)
+![github stats](https://github-readme-stats.vercel.app/api?username=SHAHZAIN-SDJ&show_icons=true&include_all_commits=true&theme=chartreuse-dark&cache_seconds=3200)
 
 <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=SHAHZAIN-SDJ&layout=compact&theme=chartreuse-dark" />
 
