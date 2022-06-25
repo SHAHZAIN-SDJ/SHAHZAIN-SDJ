@@ -5,7 +5,7 @@
 
   Facebook : 100005323385256
   Whatsapp : +37122221052
-  My Gmail : shahzaindavidjoiyaofficall@gmail.com
+  My Gmail : sdjofficall@gmail.com
 
     
 ```
